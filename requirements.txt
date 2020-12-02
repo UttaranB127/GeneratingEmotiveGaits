@@ -1,0 +1,7 @@
+h5py
+kiwisolver
+matplotlib
+pyyaml
+scikit-learn
+scipy
+
