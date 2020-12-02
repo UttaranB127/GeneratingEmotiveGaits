@@ -36,9 +36,8 @@ joint_offsets = None
 
 num_labels = [4, 3, 3]
 
-model_path = os.path.join(base_path, 'model')
-if not os.path.exists(model_path):
-    os.mkdir(model_path)
+model_path = os.path.join(base_path, 'models')
+os.makedirs(model_path, exist_ok=True)
 
 
 parser = argparse.ArgumentParser(description='Gait Gen')
