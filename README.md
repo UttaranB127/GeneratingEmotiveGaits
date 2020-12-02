@@ -52,6 +52,6 @@ For any argument not specificed in the command line, the code uses the default v
 
 On running `main.py`, the code will train the network and generate sample gestures post-training.
 
-We also provide a pretrained model inside the `models` directory, available for download here: https://drive.google.com/file/d/1u8Ed_iPXdc-8bVzyRqXOfQ5g2QogNOj1/view?usp=sharing. Please save the `models` directory directory under $BASE.
+We also provide a pretrained model inside the `models` directory, available for download here: https://drive.google.com/file/d/1u8Ed_iPXdc-8bVzyRqXOfQ5g2QogNOj1/view?usp=sharing. Save the `models` directory directory under $BASE.
 
 Set the command-line argument `--train` to `False` to skip training and use this model directly for evaluation. The generated samples are stored in the automatically created `render` directory. We generate test samples by deafult and also store the corresponding ground truth samples for comparison. We have tested that the samples, stored in `.bvh` files, are compatible with blender.
