@@ -193,7 +193,7 @@ def qfix(q):
     assert q.shape[-1] == 4
 
     result = q.clone()
-    dot_products = torch.sum(q[:, 1:] * q[:, -1], dim=-1)
+    dot_products = torch.sum(q[:, 1:] * q[:, :-1], dim=-1)
     mask = dot_products < 0
     mask = (torch.cumsum(mask, dim=1) % 2).bool()
     result[:, 1:][mask] *= -1
