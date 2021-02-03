@@ -1,6 +1,6 @@
 # Generating Emotive Gaits for Virtual Agents Using Affect-Based Autoregression
 
-This is the official implementation of the paper [Generating Emotive Gaits for Virtual Agents Using Affect-Based Autoregression](https://ieeexplore.ieee.org/abstract/document/9284667?casa_token=6fxtgPaWUL0AAAAA:NGaxEPu34BbmXRwuOoZe7WQV5zv1wKct0ZXqBg-y8P_Y7DTn76a3EDHwLnFlkZuR9cCHBJU9vBA). Please add the following citation in your work if you use our code:
+This is the official implementation of the paper [Generating Emotive Gaits for Virtual Agents Using Affect-Based Autoregression](https://ieeexplore.ieee.org/abstract/document/9284667?casa_token=6fxtgPaWUL0AAAAA:NGaxEPu34BbmXRwuOoZe7WQV5zv1wKct0ZXqBg-y8P_Y7DTn76a3EDHwLnFlkZuR9cCHBJU9vBA). Please add the following citation if you find our work uesful:
 
 ```
 @inproceedings{bhattacharya2020generating,
