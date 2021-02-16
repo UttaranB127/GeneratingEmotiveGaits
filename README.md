@@ -12,9 +12,8 @@ year      = {2020}
 }
 ```
 
-Our code is tested on Ubuntu 18.04 LTS with python 3.7.
-
 ## Installation
+Our code is tested on Ubuntu 18.04 LTS with python 3.7.
 
 1. Unzip this repository.
 
